@@ -1,6 +1,6 @@
 ## Haikus
 
-Este código en Python utiliza la biblioteca *Spacy* para procesar y analizar *haikus en español*. A continuación una descrición del código:
+Este código Python hace uso de *Modelos de Lenguaje con Aprendizaje Profundo (LLM's)*, específicamente la biblioteca *Spacy*, para procesar y analizar *haikus en españo*l. Utiliza técnicas de *tokenizació*n para dividir el texto en unidades lingüísticas más pequeñas llamadas *tokens*, los cuales son luego utilizados para aplicar patrones específicos en el texto mediante *objetos Matcher*. Estos patrones, diseñados para identificar *grupos de 2, 3 y 4 palabra*s con ciertas características gramaticales, permiten el análisis de estructuras en los haikus. Además, el código realiza un conteo de sílabas en las palabras de las líneas coincidentes con los patrones y almacena aquellas que cumplen con las reglas establecidas en listas separadas. Finalmente, el *usuario puede ingresar un tema para el haiku*, y el programa genera aleatoriamente un haiku utilizando las líneas previamente seleccionadas que cumplen con las reglas de sílabas. Este enfoque demuestra cómo las *técnicas de procesamiento de lenguaje natural y tokenización* pueden ser implementadas en Python para realizar análisis lingüísticos avanzados y generar contenido poético. A continuación una descripción del código:
 
 - Descarga y carga del modelo de procesamiento de lenguaje natural:
   -   Descarga el modelo preentrenado en español para procesamiento de lenguaje natural (NLP) utilizando Spacy.
@@ -27,7 +27,7 @@ Este código en Python utiliza la biblioteca *Spacy* para procesar y analizar *h
     
 El código utiliza Spacy y un Matcher para analizar haikus en español, identifica patrones de palabras específicos, cuenta las sílabas y genera haikus aleatorios basados en las líneas que cumplen con las reglas establecida.
 
-Se requiere instalar las siquientes librerias
+Se requiere instalar las siguientes librerias
 
 ```
 python m pip install upgrade pip setuptools
